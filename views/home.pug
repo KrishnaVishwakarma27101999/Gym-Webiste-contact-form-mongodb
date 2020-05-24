@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/style.css
+            
+block content
+    section#introSection
+        div Great Welcome From our Side
+        div.small No Pain Without Gain
+            
+    section#missionSection
+        h2 Our Aim
+        div.card
+            h3 Weight Loss
+            div.card-box
+                div.card-img
+                    img(src="/static/fitness.png")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque nam saepe?    
+        div.card
+            h3 Health Consultant
+            div.card-box
+                div.card-img
+                    img(src="/static/ftness2.png")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque nam saepe?
+        div.card
+            h3 Summer Packages
+            div.card-box
+                div.card-img
+                    img(src="/static/ftness3.png")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque nam saepe?    
+    section#sponsersSection
+        h2 Our Sponser
+        div#sponsers
+            img(src="/static/1.png" ,alt="sponser image",class="spImage")
+            img(src="/static/2.png" ,alt="sponser image",class="spImage")
+            img(src="/static/3.png" ,alt="sponser image",class="spImage")
+            img(src="/static/4.png" ,alt="sponser image",class="spImage")
+            img(src="/static/5.png" ,alt="sponser image",class="spImage")
+            img(src="/static/6.png" ,alt="sponser image",class="spImage")      
